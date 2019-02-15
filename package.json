@@ -1,0 +1,24 @@
+{
+  "name": "espress-lecture-2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "set NODE_PATH=.; && nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.0.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "nodemon": "^1.18.7",
+    "sequelize": "^4.41.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
